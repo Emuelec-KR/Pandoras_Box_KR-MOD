@@ -1,0 +1,94 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, video">
+		<helpsystem name="help">
+			<origin>0.5 1</origin>
+			<pos>0.5 0.985</pos>
+			<fontSize>0.034</fontSize>
+		</helpsystem>
+		<image name="logo">
+			<path>./art/logos/${system.theme}.png</path>
+		</image>
+		<text name="logoText">
+			<fontSize>0.08</fontSize>
+			<color>ffcc00</color>
+			<forceUppercase>false</forceUppercase>
+			<text>${system.fullName}</text>
+			<fontPath>./art/Road_Rage.otf</fontPath>
+		</text>
+	</view>
+	<view name="system">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>
+		<carousel name="systemcarousel">
+			<type>horizontal_wheel</type>
+			<logoRotationOrigin>0.5 25</logoRotationOrigin>
+			<logoRotation>15</logoRotation>
+			<logoAlignment>center</logoAlignment>
+			<color>00000000</color>
+			<logoScale>1.5</logoScale>
+			<logoSize>0.3 0.1111111111111111</logoSize>
+			<size>1 1</size>
+			<pos>0 -0.1</pos>
+			<maxLogoCount>5</maxLogoCount>
+		</carousel>
+		<text name="systemInfo">
+			<backgroundColor>00000000</backgroundColor>
+			<fontSize>0.0444444444444444</fontSize>
+			<size>0.2875 0.0305555555555556</size>
+			<pos>0.5 0.6</pos>
+			<color>ffffffaa</color>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+			<zIndex>100</zIndex>
+		</text>
+	</view>
+	<view name="basic, detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>
+		<textlist name="gamelist">
+			<pos>0.2776 0.5390</pos>
+			<size>0.5625 0.6654</size>
+			<origin>0.5 0.5</origin>
+			<selectorColor>ffffff</selectorColor>
+			<selectorImagePath>./art/selector.png</selectorImagePath>
+			<selectorHeight>0.0784</selectorHeight>
+			<selectorOffsetY>-0.0130</selectorOffsetY>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff66</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<fontPath>./art/The_Speed.ttf</fontPath>
+			<fontSize>0.044</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<horizontalMargin>0.05</horizontalMargin>
+			<lineSpacing>1.6958</lineSpacing>
+		</textlist>
+		<image name="logo">
+			<maxSize>0.3980 0.1320</maxSize>
+			<pos>0.2916 0.0833</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		<text name="logoText">
+			<size>0.5208 0.1629</size>
+			<pos>0.2916 0.0833</pos>
+			<origin>0.5 0.5</origin>
+		</text>
+		<rating name="md_rating">
+			<pos>2 2</pos>
+		</rating>
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>2 2</pos>
+		</datetime>
+		<image name="md_marquee">
+			<maxSize>0.1 0.1</maxSize>
+			<pos>2 2</pos>
+		</image>
+	</view>
+</theme>
